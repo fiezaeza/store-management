@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { table } from "console"
-import { getOrdersList } from "@/lib/action";
+import { getData, getOrdersList } from "@/lib/action";
 import { DeleteButton } from "@/components/delete";
 
 const Orders = async ({

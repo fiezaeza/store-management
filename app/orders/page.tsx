@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import TableData from "@/components/tabledata"
 
 const Home = () => {
+  const query = "";
     return (
 <div className="w-screen py-20 flex justify-center flex-col items-center">
       <div className="flex items-center justify-between gap-1 mb-5">
@@ -16,7 +17,10 @@ const Home = () => {
               Create
             </Link>
           </div>
-          <TableData/>
+          
+          <TableData query = {query}/>
+          
+          
       </div>  
     </div>
     );
