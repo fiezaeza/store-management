@@ -96,7 +96,7 @@ export const getData = async (query: string) => {
         return Orders;
 
     } catch (error) {
-        throw new Error("Failed to fetch employees data";)
+        throw new Error("Failed to fetch employees data");
     }
 }
 
